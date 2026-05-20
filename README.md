@@ -1,3 +1,9 @@
+Tests CMake deployment of an app using a realistic Qt Quick project structure, with different libraries and QML modules that depend on each other.
+
+The "foo" directory contains all of the libraries, as well as a utility Editor app to show how to have different executables elsewhere in the project tree.
+
+Tests weren't included, but could live in a top-level "tests" directory.
+
 # How to deploy using Qt Creator
 
 Check the "install" target in Projects > Build Settings > Build Steps.
